@@ -1,9 +1,9 @@
 #include <ESP8266WiFi.h>
 void Line_Notify(String message);
 
-#define WIFI_SSID "kark"
-#define WIFI_PASSWORD "0000000a"
-#define LINE_TOKEN "01DoE9NEnQCuwRVDfWtpVkeNmcBgjuwvGBnA3vj0gI8"
+#define WIFI_SSID "<WIFI_SSID>"
+#define WIFI_PASSWORD "<WIFI_PASSWORD>"
+#define LINE_TOKEN "<LINE_TOKEN>"
 
 String message = "%E0%BA%A1%E0%BA%B5%E0%BA%84%E0%BA%BB%E0%BA%99%E0%BB%80%E0%BA%82%E0%BA%BB%E0%BB%89%E0%BA%B2%E0%BB%80%E0%BA%AE%E0%BA%B7%E0%BA%AD%E0%BA%99%E0%BA%82%E0%BA%AD%E0%BA%87%E0%BB%80%E0%BA%88%E0%BA%BB%E0%BB%89%E0%BA%B2";
 
